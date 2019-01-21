@@ -31,7 +31,3 @@ brew cask install spotify 2> /dev/null
 brew cask install franz 2> /dev/null
 brew cask install skype 2> /dev/null
 brew cask install coconutbattery 2> /dev/null
-brew cask install screenhero 2> /dev/null
-brew cask install zoomus 2> /dev/null
-brew cask install stremio 2> /dev/null
-brew cask install handbrake 2> /dev/null
