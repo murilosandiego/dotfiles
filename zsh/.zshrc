@@ -9,7 +9,6 @@ source $ZSH/oh-my-zsh.sh
 alias ls="eza --color=always --long --no-filesize --icons=always --no-time --no-user --no-permissions"
 alias cd="z"
 alias pixel="$ANDROID_HOME/emulator/emulator @Pixel_7_Pro"
-alias code="open -a Visual\ Studio\ Code.app"
 alias zed="open -a Zed.app"
 
 # Homebrew
