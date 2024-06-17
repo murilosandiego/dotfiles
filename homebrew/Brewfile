@@ -1,3 +1,9 @@
+
+
+tap 'oven-sh/bun'
+tap 'dart-lang/dart'
+tap 'leoafarias/fvm'
+
 brew 'git'
 brew 'zsh'
 brew 'zsh-autosuggestions'
@@ -12,9 +18,10 @@ brew 'xcodesorg/made/xcodes'
 brew 'yt-dlp'
 brew 'yarn'
 brew 'gh'
+brew 'dart'
+brew 'fvm'
 
-tap 'oven-sh/bun'
-
+# Cask
 cask 'alacritty'
 cask 'font-jetbrains-mono'
 cask 'font-jetbrains-mono-nerd-font'
