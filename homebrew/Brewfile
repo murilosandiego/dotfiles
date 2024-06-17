@@ -9,6 +9,7 @@ brew 'nvm'
 brew 'cocoapods'
 brew 'mas'
 brew 'xcodesorg/made/xcodes'
+brew 'yt-dlp'
 
 tap 'oven-sh/bun'
 
@@ -32,3 +33,4 @@ cask 'logi-options-plus'
 cask 'visual-studio-code'
 cask 'rectangle'
 cask 'obsidian'
+cask 'handbrake'
