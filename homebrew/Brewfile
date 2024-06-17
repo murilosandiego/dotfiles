@@ -13,6 +13,7 @@ brew 'xcodesorg/made/xcodes'
 tap 'oven-sh/bun'
 
 cask 'alacritty'
+cask 'font-jetbrains-mono'
 cask 'font-jetbrains-mono-nerd-font'
 cask 'xcodes'
 cask 'raycast'
