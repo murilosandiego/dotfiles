@@ -80,6 +80,16 @@ setup_spotify() {
     cd ..
 }
 
+# Run sdkman.sh from /sdkman to install SDKMAN
+setup_sdkman() {
+    local sdkman_config_dir="$(dirname "$0")/sdkman"
+    local sdkman_config_path="$sdkman_config_dir/sdkman.sh"
+
+    chmod +x "$sdkman_config_path"
+    cd "$sdkman_config_dir" && ./sdkman.sh
+    cd ..
+}
+
 # Main script
 setup_homebrew
 setup_git
@@ -89,3 +99,4 @@ setup_alacritty
 setup_mas
 setup_xcodes
 setup_spotify
+setup_sdkman
