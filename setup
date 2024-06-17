@@ -90,6 +90,16 @@ setup_sdkman() {
     cd ..
 }
 
+# Run firebase.sh from /firebase to install Firebase CLI
+setup_firebase() {
+    local firebase_config_dir="$(dirname "$0")/firebase"
+    local firebase_config_path="$firebase_config_dir/firebase.sh"
+
+    chmod +x "$firebase_config_path"
+    cd "$firebase_config_dir" && ./firebase.sh
+    cd ..
+}
+
 # Main script
 setup_homebrew
 setup_git
@@ -100,3 +110,4 @@ setup_mas
 setup_xcodes
 setup_spotify
 setup_sdkman
+setup_firebase
