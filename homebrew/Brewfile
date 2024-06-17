@@ -10,6 +10,7 @@ brew 'cocoapods'
 brew 'mas'
 brew 'xcodesorg/made/xcodes'
 brew 'yt-dlp'
+brew 'yarn'
 
 tap 'oven-sh/bun'
 
