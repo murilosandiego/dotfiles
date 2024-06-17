@@ -11,6 +11,7 @@ brew 'mas'
 brew 'xcodesorg/made/xcodes'
 brew 'yt-dlp'
 brew 'yarn'
+brew 'gh'
 
 tap 'oven-sh/bun'
 
