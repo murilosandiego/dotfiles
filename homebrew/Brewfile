@@ -21,6 +21,7 @@ brew 'gh'
 brew 'dart'
 brew 'fvm'
 brew 'scrcpy'
+brew 'gnupg'
 
 # Cask
 cask 'alacritty'
