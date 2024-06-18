@@ -22,6 +22,7 @@ brew 'dart'
 brew 'fvm'
 brew 'scrcpy'
 brew 'gnupg'
+brew 'pinentry-mac'
 
 # Cask
 cask 'alacritty'
