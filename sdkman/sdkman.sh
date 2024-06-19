@@ -11,5 +11,8 @@ if [[ ! -d $HOME/.sdkman ]]; then
   # Install java
   sdk install java
 
+  # Install gradle
+  sdk install gradle
+
   echo "✅ 'SDKMAN' installed successfully!"
 fi
