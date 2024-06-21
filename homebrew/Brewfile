@@ -23,6 +23,7 @@ brew 'fvm'
 brew 'scrcpy'
 brew 'gnupg'
 brew 'pinentry-mac'
+brew 'kdoctor'
 
 # Cask
 cask 'alacritty'
