@@ -24,6 +24,7 @@ brew 'scrcpy'
 brew 'gnupg'
 brew 'pinentry-mac'
 brew 'kdoctor'
+brew 'ktlint'
 
 # Cask
 cask 'alacritty'
